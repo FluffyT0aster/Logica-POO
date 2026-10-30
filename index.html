@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Desafio Garagem Inteligente. Atividade de Programação Orientada a Objetos em Python ou Java com GitHub Fork.">
+  <meta name="theme-color" content="#101a37">
+  <title>Garagem Inteligente | Aula 11 - Lógica de Programação</title>
+  <link rel="stylesheet" href="assets/estilos.css">
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir ao conteúdo</a>
+  <div class="topline"></div>
+  <header class="site-header shell">
+    <div class="brand"><span class="brand-mark">{ }</span><div><strong>GARAGEM<span>LAB</span></strong><small>SENAI/SC · Lógica de Programação</small></div></div>
+    <div class="header-right"><span class="tag">AULA 11</span><span class="online-dot"><span></span> Projeto em grupo</span></div>
+  </header>
+  <main id="conteudo" class="shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-line"></span> DESAFIO FINAL · PROGRAMAÇÃO ORIENTADA A OBJETOS</span>
+        <h1 id="hero-title">Sua equipe. <br>Seu código. <br><em>Sua garagem.</em></h1>
+        <p>Uma loja precisa cadastrar seus carros. A missão é transformar uma ideia em código, usando <strong>classes, objetos, atributos e métodos</strong>, e registrar tudo em um fork do GitHub.</p>
+        <div class="hero-actions"><button type="button" class="btn btn-primary" data-go="missao">Começar a missão <span aria-hidden="true">↗</span></button><button type="button" class="btn btn-outline" data-go="roteiro">Como fazer o fork</button></div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustração esquemática de uma classe Carro e seus objetos">
+        <div class="code-window"><div class="code-window-top"><span class="dots"><i></i><i></i><i></i></span><span>carro.py</span><span class="win-light">●</span></div><div class="mini-code"><div><span class="c-purple">class</span> <span class="c-green">Carro</span>:</div><div class="indent"><span class="c-purple">marca</span> · modelo · ano</div><div class="indent"><span class="c-purple">def</span> <span class="c-white">exibirInfo()</span></div><div class="indent2 c-muted"># mostrar os dados</div></div></div>
+        <div class="connector"><span></span><span></span><span></span></div>
+        <div class="car-row"><div class="car-object"><span class="object-icon" aria-hidden="true">01</span><strong>carro1</strong><small>Primeiro objeto</small></div><div class="car-object"><span class="object-icon object-icon-alt" aria-hidden="true">02</span><strong>carro2</strong><small>Segundo objeto</small></div></div>
+        <div class="visual-label">1 classe → 2 objetos → informações na tela</div>
+      </div>
+    </section>
+    <div class="mission-strip" aria-label="Resumo da atividade"><div><span class="strip-icon">◷</span><div><strong>40 minutos</strong><small>Tempo total</small></div></div><div><span class="strip-icon">♧</span><div><strong>Em equipe</strong><small>Uma entrega por grupo</small></div></div><div><span class="strip-icon">⌘</span><div><strong>Python ou Java</strong><small>Escolham uma linguagem</small></div></div><div><span class="strip-icon">↗</span><div><strong>GitHub</strong><small>Fork + commits</small></div></div></div>
+    <nav class="tabs" aria-label="Navegação do desafio" role="tablist">
+      <button type="button" class="tab active" role="tab" id="tab-missao" aria-controls="panel-missao" aria-selected="true" data-tab="missao">01 <span>Missão</span></button>
+      <button type="button" class="tab" role="tab" id="tab-roteiro" aria-controls="panel-roteiro" aria-selected="false" data-tab="roteiro">02 <span>Passo a passo</span></button>
+      <button type="button" class="tab" role="tab" id="tab-codigo" aria-controls="panel-codigo" aria-selected="false" data-tab="codigo">03 <span>Código e dicas</span></button>
+      <button type="button" class="tab" role="tab" id="tab-validar" aria-controls="panel-validar" aria-selected="false" data-tab="validar">04 <span>Conferir</span></button>
+      <button type="button" class="tab" role="tab" id="tab-entrega" aria-controls="panel-entrega" aria-selected="false" data-tab="entrega">05 <span>Entrega</span></button>
+    </nav>
+    <div class="workspace">
+      <div class="main-column">
+        <section id="panel-missao" class="panel active" role="tabpanel" aria-labelledby="tab-missao">
+          <div class="section-heading"><span class="section-kicker">01 / O PROBLEMA</span><h2>Uma garagem, dois carros e uma classe.</h2><p>Vocês receberam parte do programa pronta. Agora precisam completar os trechos marcados com <code>TODO</code>.</p></div>
+          <div class="scenario"><div class="scenario-label">CENÁRIO</div><p>Uma revendedora deseja mostrar os veículos cadastrados. Cada veículo tem <strong>marca, modelo e ano</strong>. Em vez de repetir as mesmas instruções, a equipe vai criar um modelo chamado <strong>Carro</strong>.</p></div>
+          <h3>O que seu grupo precisa entregar?</h3>
+          <div class="requirements"><div class="req"><span>01</span><div><strong>Classe Carro</strong><p>Usar uma classe como molde para todos os carros.</p></div></div><div class="req"><span>02</span><div><strong>Três atributos</strong><p>Marca, modelo e ano de cada carro.</p></div></div><div class="req"><span>03</span><div><strong>Método exibirInfo()</strong><p>Mostrar as informações do carro na tela.</p></div></div><div class="req"><span>04</span><div><strong>Dois objetos diferentes</strong><p>Criar dois carros e chamar o método em cada um.</p></div></div><div class="req"><span>05</span><div><strong>Registro no GitHub</strong><p>Salvar as alterações no fork e enviar o link.</p></div></div></div>
+          <div class="callout"><span>💡</span><p><strong>Não precisam fazer tudo do zero.</strong> A classe e seus atributos já estão no projeto. Foquem no método, nos dois objetos e no funcionamento do código.</p></div>
+          <div class="next"><button class="btn btn-primary" data-go="roteiro">Entendi. Como começar? <span>↗</span></button></div>
+        </section>
+        <section id="panel-roteiro" class="panel" role="tabpanel" aria-labelledby="tab-roteiro" hidden>
+          <div class="section-heading"><span class="section-kicker">02 / GITHUB NA PRÁTICA</span><h2>Do repositório do professor ao fork da equipe.</h2><p>Todo o processo pode ser feito pelo navegador. Escolham um integrante para salvar as alterações no GitHub.</p></div>
+          <ol class="step-list">
+            <li><span class="step-number">01</span><div><h3>Acessem o repositório original</h3><p>Cliquem no link enviado pelo professor. Confirmem que estão logados no GitHub.</p></div></li>
+            <li><span class="step-number">02</span><div><h3>Façam o fork</h3><p>No canto superior direito, cliquem em <strong>Fork</strong>, depois em <strong>Create fork</strong>. Agora vocês têm uma cópia na conta de um integrante.</p><small>Fork = criar uma cópia própria para trabalhar sem alterar o projeto original.</small></div></li>
+            <li><span class="step-number">03</span><div><h3>Escolham a linguagem</h3><p>Para Python, abram <code>python/carro.py</code>. Para Java, abram <code>java/Main.java</code>. Uma linguagem basta.</p></div></li>
+            <li><span class="step-number">04</span><div><h3>Editem os TODOs</h3><p>Clique no arquivo e depois no ícone de lápis. Completem o método, criem dois carros e chamem <code>exibirInfo()</code>.</p></div></li>
+            <li><span class="step-number">05</span><div><h3>Salvem um commit</h3><p>Clique em <strong>Commit changes...</strong>. Use a mensagem <code>Conclui desafio da garagem</code> e confirme no seu fork.</p><small>Commit = registro de uma alteração no histórico do projeto.</small></div></li>
+            <li><span class="step-number">06</span><div><h3>Testem e registrem a equipe</h3><p>Copiem o código completo para o compilador online, executem, corrijam se necessário e atualizem <code>REGISTRO_EQUIPE.md</code> em outro commit.</p></div></li>
+            <li><span class="step-number">07</span><div><h3>Enviem o link</h3><p>Copiem o endereço do fork da equipe e enviem no canal indicado pelo professor. Não enviem o link do projeto original.</p></div></li>
+          </ol>
+          <div class="resource-grid"><a target="_blank" rel="noopener noreferrer" href="https://docs.github.com/pt/pull-requests/how-tos/work-with-forks/fork-a-repo" class="resource"><span>↗</span><strong>Ajuda para fazer fork</strong><small>Documentação GitHub</small></a><a target="_blank" rel="noopener noreferrer" href="https://docs.github.com/pt/repositories/working-with-files/managing-files/editing-files" class="resource"><span>↗</span><strong>Ajuda para editar arquivos</strong><small>Documentação GitHub</small></a></div>
+          <div class="next"><button class="btn btn-primary" data-go="codigo">Abrir os códigos <span>↗</span></button></div>
+        </section>
+        <section id="panel-codigo" class="panel" role="tabpanel" aria-labelledby="tab-codigo" hidden>
+          <div class="section-heading"><span class="section-kicker">03 / HORA DE PROGRAMAR</span><h2>Escolham uma linguagem.</h2><p>Façam as alterações no <strong>fork do grupo</strong>. Os exemplos abaixo mostram os arquivos iniciais com as partes que faltam.</p></div>
+          <div class="lang-switch" aria-label="Escolha de linguagem"><button type="button" class="lang-btn active" aria-pressed="true" data-lang="python">Python</button><button type="button" class="lang-btn" aria-pressed="false" data-lang="java">Java</button></div>
+          <div id="code-python" class="code-panel"><div class="code-head"><span><span class="file-dot"></span> python/carro.py</span><span>ARQUIVO INICIAL</span></div><pre><code>class Carro:
+    def __init__(self, marca, modelo, ano):
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+
+    def exibirInfo(self):
+        # TODO 1: mostrar os três atributos
+        pass
+
+# TODO 2: criar carro1 e carro2
+
+# TODO 3: chamar exibirInfo() nos dois</code></pre><div class="code-bottom"><a href="python/carro.py" target="_blank">Abrir arquivo Python ↗</a><a target="_blank" rel="noopener noreferrer" href="https://www.programiz.com/python-programming/online-compiler/">Executar Python online ↗</a></div></div>
+          <div id="code-java" class="code-panel" hidden><div class="code-head"><span><span class="file-dot orange"></span> java/Main.java</span><span>ARQUIVO INICIAL</span></div><pre><code>class Carro {
+    String marca;
+    String modelo;
+    int ano;
+
+    Carro(String marca, String modelo, int ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+    void exibirInfo() {
+        // TODO 1: mostrar os três atributos
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // TODO 2: criar dois Carro
+        // TODO 3: chamar exibirInfo() nos dois
+    }
+}</code></pre><div class="code-bottom"><a href="java/Main.java" target="_blank">Abrir arquivo Java ↗</a><a target="_blank" rel="noopener noreferrer" href="https://www.programiz.com/java-programming/online-compiler/">Executar Java online ↗</a></div></div>
+          <div class="tips"><h3>Dicas sem entregar a resposta</h3><div class="tip"><button type="button" class="tip-toggle" aria-expanded="false">Como identificar uma classe? <span>+</span></button><p hidden>Em Python ela começa com <code>class Carro:</code>. Em Java, com <code>class Carro { ... }</code>. Pense na classe como um molde.</p></div><div class="tip"><button type="button" class="tip-toggle" aria-expanded="false">Como criar um objeto? <span>+</span></button><p hidden>Em Python, a ideia é <code>variavel = Carro("Marca", "Modelo", 2020)</code>. Em Java, <code>Carro variavel = new Carro("Marca", "Modelo", 2020);</code>. Vocês precisam criar dois.</p></div><div class="tip"><button type="button" class="tip-toggle" aria-expanded="false">Como chamar o método? <span>+</span></button><p hidden>Use o nome do objeto seguido de ponto e método, como <code>carro1.exibirInfo()</code> em Python ou <code>carro1.exibirInfo();</code> em Java.</p></div><div class="tip"><button type="button" class="tip-toggle" aria-expanded="false">O que fazer se der erro? <span>+</span></button><p hidden>Confiram a mensagem do compilador, a indentação no Python, os pontos e vírgulas no Java e se usaram o nome do método exatamente como <code>exibirInfo</code>. Se tiverem dúvidas, peçam ajuda ao professor.</p></div></div>
+          <div class="next"><button class="btn btn-primary" data-go="validar">Conferir meu código <span>↗</span></button></div>
+        </section>
+        <section id="panel-validar" class="panel" role="tabpanel" aria-labelledby="tab-validar" hidden>
+          <div class="section-heading"><span class="section-kicker">04 / PRÉ-CONFERÊNCIA</span><h2>Seu código tem tudo o que foi pedido?</h2><p>Copiem <strong>todo o código que vocês editaram</strong> e colem aqui. O painel procura elementos da atividade e dá orientações para revisão.</p></div>
+          <div class="notice"><strong>Atenção:</strong> isto é uma checagem simples de texto, não executa nem compila o programa. Mesmo com todos os itens identificados, é obrigatório testar no compilador online.</div>
+          <div class="field"><label for="verify-lang">Linguagem usada</label><select id="verify-lang"><option value="python">Python</option><option value="java">Java</option></select></div>
+          <div class="field"><label for="paste-code">Cole o código completo</label><textarea id="paste-code" rows="13" spellcheck="false" placeholder="Cole aqui o conteúdo completo do carro.py ou Main.java"></textarea></div>
+          <div class="action-row"><button type="button" class="btn btn-primary" id="check-code">Conferir estrutura <span>✓</span></button><button type="button" class="btn btn-quiet" id="clear-code">Limpar</button></div>
+          <div id="check-results" class="check-results" aria-live="polite"><p>Aguardando seu código. Depois de conferir, execute o programa para confirmar a saída.</p></div>
+          <div class="expected"><h3>Exemplo do que deve aparecer ao executar</h3><pre>Marca: Fiat | Modelo: Argo | Ano: 2020
+Marca: Toyota | Modelo: Corolla | Ano: 2024</pre><small>Os veículos podem ser diferentes. O importante são as informações dos dois objetos.</small></div>
+          <div class="next"><button class="btn btn-primary" data-go="entrega">Preparar entrega <span>↗</span></button></div>
+        </section>
+        <section id="panel-entrega" class="panel" role="tabpanel" aria-labelledby="tab-entrega" hidden>
+          <div class="section-heading"><span class="section-kicker">05 / MISSÃO CONCLUÍDA</span><h2>Deixem registrado o trabalho da equipe.</h2><p>Preencham o arquivo <code>REGISTRO_EQUIPE.md</code> no fork e usem este formulário apenas para montar uma mensagem de entrega.</p></div>
+          <div class="field"><label for="team-name">Nome da equipe</label><input id="team-name" type="text" placeholder="Ex.: Equipe Dev 01" maxlength="80"></div>
+          <div class="field"><label for="team-members">Integrantes</label><input id="team-members" type="text" placeholder="Nomes dos participantes" maxlength="300"></div>
+          <div class="field"><label for="fork-url">URL do fork no GitHub</label><input id="fork-url" type="url" placeholder="https://github.com/usuario/nome-do-repositorio"></div>
+          <div class="field"><label for="team-lang">Linguagem utilizada</label><select id="team-lang"><option value="Python">Python</option><option value="Java">Java</option></select></div>
+          <div class="field"><label for="test-result">Resultado do teste</label><select id="test-result"><option value="Funcionou">Funcionou</option><option value="Funcionou parcialmente">Funcionou parcialmente</option><option value="Ainda não funcionou">Ainda não funcionou</option></select></div>
+          <button type="button" class="btn btn-primary" id="make-delivery">Gerar mensagem para enviar <span>↗</span></button>
+          <div id="delivery-box" class="delivery-box" hidden><label for="delivery-text">Mensagem gerada</label><textarea id="delivery-text" rows="7" readonly></textarea><button type="button" id="copy-delivery" class="btn btn-outline">Copiar mensagem</button><div id="copy-feedback" class="feedback" aria-live="polite"></div></div>
+          <div class="notice">Este site não recebe nem envia respostas automaticamente. A equipe precisa copiar a mensagem e enviá-la pelo AVA ou pelo canal indicado em aula. O código e o registro devem estar salvos no GitHub.</div>
+          <h3>Pergunta final para o grupo</h3><p class="reflection">Qual é a diferença entre <strong>classe</strong> e <strong>objeto</strong>? E por que o método <code>exibirInfo()</code> facilita o trabalho quando temos vários carros?</p>
+        </section>
+      </div>
+      <aside class="sidebar" aria-label="Cronômetro e progresso">
+        <div class="side-card timer-card"><div class="side-top"><span>SEU TEMPO</span><span class="live">● ATIVIDADE</span></div><div class="timer" id="timer" aria-live="off">40:00</div><div class="timer-caption">40 minutos para concluir a missão</div><div class="timer-buttons"><button type="button" id="timer-toggle" class="btn btn-timer">Iniciar</button><button type="button" id="timer-reset" class="btn btn-reset" aria-label="Reiniciar cronômetro">↺</button></div><div id="timer-status" class="timer-status" aria-live="polite">O tempo começa quando vocês clicarem em Iniciar.</div></div>
+        <div class="side-card progress-card"><div class="side-top"><span>CHECKLIST</span><strong id="progress-percent">0%</strong></div><div class="progress-track"><div id="progress-bar" class="progress-bar"></div></div><p>Marquem as etapas concluídas pela equipe.</p><div class="checklist"><label><input type="checkbox" data-check="0"><span>Fizemos o fork</span></label><label><input type="checkbox" data-check="1"><span>Escolhemos a linguagem</span></label><label><input type="checkbox" data-check="2"><span>Completamos exibirInfo()</span></label><label><input type="checkbox" data-check="3"><span>Criamos 2 objetos</span></label><label><input type="checkbox" data-check="4"><span>Testamos o programa</span></label><label><input type="checkbox" data-check="5"><span>Fizemos os commits</span></label><label><input type="checkbox" data-check="6"><span>Enviamos o link do fork</span></label></div><small>O checklist fica salvo apenas neste navegador.</small></div>
+        <div class="side-card glossary"><span class="side-top"><span>LEMBRETE RÁPIDO</span></span><div><strong>Classe</strong><p>O molde para criar carros.</p></div><div><strong>Objeto</strong><p>Um carro criado a partir do molde.</p></div><div><strong>Atributo</strong><p>Uma característica: marca, modelo ou ano.</p></div><div><strong>Método</strong><p>Uma ação: mostrar informações.</p></div></div>
+      </aside>
+    </div>
+    <section class="bottom-band"><div><small>DESAFIO EXTRA · SE SOBRAR TEMPO</small><h2>Querem ir além?</h2><p>Adicionem um terceiro objeto ou criem o método <code>buzinar()</code>, que mostra a mensagem <strong>Bip bip!</strong>.</p></div><button type="button" class="btn btn-outline-dark" data-go="codigo">Voltar ao código ↗</button></section>
+  </main>
+  <footer class="site-footer shell"><span>GARAGEMLAB · Aula 11 · Lógica de Programação</span><span>Atividade didática para o SENAI/SC · Sem coleta de dados</span></footer>
+</body>
+</html>

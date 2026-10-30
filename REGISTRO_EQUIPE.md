@@ -11,11 +11,11 @@
 ## O que conseguimos fazer?
 
 Escrevam 2 ou 3 frases explicando o que a classe Carro representa, quais são os atributos e qual é a função do método exibirInfo().
+a classe Carro cria um objeto que é atribuido a uma variavel
 
 PREENCHER
 
 ## O que aprendemos sobre o GitHub?
 
 Escrevam uma frase sobre a diferença entre fork e commit.
-
-PREENCHER
+fork é criar uma copia de um repositorio que queira usar, ja commit salva as mudanças feitas em um repositorio

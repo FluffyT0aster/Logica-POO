@@ -1,4 +1,6 @@
-# Garagem Inteligente - Lógica de Programação
+# Garagem Inteligente | Aula 11 - Lógica de Programação
+
+**SENAI/SC - Atividade em grupo - 40 minutos**
 
 ## Missão
 
@@ -70,6 +72,12 @@ Criem um terceiro carro **ou** adicionem à classe o método `buzinar()`, que im
 - **Objetos:** os carros individuais criados a partir da classe.
 - **Atributos:** marca, modelo e ano.
 - **Método:** `exibirInfo()`, que mostra as características de um objeto.
+
+## Site interativo
+
+O arquivo `index.html` contém a missão, orientações, checklist, cronômetro e verificador **de estrutura** do código. O verificador não executa os programas e não substitui o teste no compilador.
+
+Se o professor ativar o GitHub Pages, a página ficará disponível online. Ela também pode ser aberta localmente clicando em `index.html`.
 
 ## Ajuda
 

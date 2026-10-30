@@ -15,10 +15,10 @@ class Carro:
         print(f"Marca do carro: {self.marca}\nModelo {self.modelo}\nAno {self.ano}")
         # Dica: print(f"Marca: {self.marca} | Modelo: {self.modelo} | Ano: {self.ano}")
     def buzina(self):
-        print(f"{self.modelo} buzina")
+        print(f"{self.marca} buzina")
 
     def farol(self):
-        print(f"{self.modelo} deixa voce cego")
+        print(f"{self.marca} deixa voce cego")
 
 # TODO 2: crie DOIS objetos usando a classe Carro.
 carro1 = Carro("Fiat", "Uno", 1984)

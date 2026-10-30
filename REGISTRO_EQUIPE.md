@@ -5,7 +5,7 @@
 - **Nome da equipe:** PREENCHER
 - **Integrantes:** PREENCHER
 - **Linguagem escolhida:** Python ou Java
-- **Link do fork:** COLE AQUI O LINK DO REPOSITÓRIO DE VOCÊS
+- **Link do fork:** [Fale com a mão](https://github.com/FluffyT0aster/Logica-POO/blob/patch-1/python/carro.py)
 - **Resultado do teste:** Funcionou / Funcionou parcialmente / Não funcionou ainda
 
 ## O que conseguimos fazer?

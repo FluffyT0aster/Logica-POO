@@ -12,7 +12,7 @@ class Carro:
 
     def exibirInfo(self):
         # TODO 1: substitua pass por um print() que mostre marca, modelo e ano.
-        print(f"Marca do carro: {self.marca}\nModelo {self.modelo}\nAno{self.ano}")
+        print(f"Marca do carro: {self.marca}\nModelo {self.modelo}\nAno {self.ano}")
         # Dica: print(f"Marca: {self.marca} | Modelo: {self.modelo} | Ano: {self.ano}")
     def buzina(self):
         print(f"{self.modelo} buzina")

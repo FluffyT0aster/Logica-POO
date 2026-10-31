@@ -23,6 +23,7 @@ class Carro {
 public class Main {
     public static void main(String[] args) {
         Carro carro1 = new Carro("BMW", "X1", 2019);
+        Carro carro2 = new Carro("Fiat", "Uno", 2003);
         // Exemplo: Carro carro1 = new Carro("...", "...", 2020);
 
         // TODO 3: chame exibirInfo() nos DOIS objetos.

@@ -14,7 +14,7 @@ class Carro:
         print(f"Marca do carro: {self.marca}\nModelo {self.modelo}\nAno {self.ano}")
 
     def buzina(self):
-        print(f"{self.marca} buzina")
+        print(f"{self.marca}: HONK!")
 
     def farol(self):
         print(f"{self.marca} deixa voce cego")

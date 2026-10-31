@@ -27,5 +27,7 @@ public class Main {
 
         // TODO 3: chame exibirInfo() nos DOIS objetos.
         carro1.exibirInfo();
+        carro2.exibirInfo();
+        carro1.buzina();
     }
 }

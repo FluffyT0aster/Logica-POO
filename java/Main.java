@@ -13,7 +13,7 @@ class Carro {
     }
 
     void exibirInfo() {
-        System.out.println("Marca" + marca + "\nModelo" + modelo + "\nAno" + ano);
+        System.out.println("Marca: " + marca + "\nModelo: " + modelo + "\nAno: " + ano);
     }
     void buzina() {
         System.out.println(marca + ": HONK!");

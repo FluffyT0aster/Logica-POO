@@ -13,17 +13,19 @@ class Carro {
     }
 
     void exibirInfo() {
-        // TODO 1: mostre marca, modelo e ano com System.out.println().
-        // Dica: System.out.println("Marca: " + marca + " | Modelo: " + modelo + " | Ano: " + ano);
+        System.out.println("Marca" + marca + "\nModelo" + modelo + "\nAno" + ano);
+    }
+    void buzina() {
+        System.out.println(marca + ": HONK!");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        // TODO 2: crie DOIS objetos com new Carro(...).
+        Carro carro1 = new Carro("BMW", "X1", 2019);
         // Exemplo: Carro carro1 = new Carro("...", "...", 2020);
 
         // TODO 3: chame exibirInfo() nos DOIS objetos.
-        // Exemplo: carro1.exibirInfo();
+        carro1.exibirInfo();
     }
 }

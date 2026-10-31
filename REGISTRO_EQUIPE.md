@@ -1,12 +1,12 @@
-# Registro da equipe - Aula 11
+                                   # Registro da equipe - Aula 11
 
 > Editem este arquivo no fork do grupo e façam commit das alterações.
 
-- **Nome da equipe:** PREENCHER
-- **Integrantes:** PREENCHER
-- **Linguagem escolhida:** Python ou Java
+- **Nome da equipe:** Os Farofeiros
+- **Integrantes:** Nicolas, João Pedro Dantas, Gui, Jorge Eduardo, João Pedro, Thiago Strauch
+- **Linguagem escolhida:** Python
 - **Link do fork:** [Fale com a mão](https://github.com/FluffyT0aster/Logica-POO/blob/patch-1/python/carro.py)
-- **Resultado do teste:** Funcionou / Funcionou parcialmente / Não funcionou ainda
+- **Resultado do teste:** Funcionou
 
 ## O que conseguimos fazer?
 
